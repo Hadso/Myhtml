@@ -1,0 +1,346 @@
+/*清除标签原有样式*/
+body,img,ul,li,a{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+.header{
+    width: 1200px;
+    height: 40px;
+    margin:0px auto ;
+}
+.header_left{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.header_left>div:first-child{
+    float: left;
+    padding: 10px 10px 10px 0px;
+    color: #8492A6;
+    position: relative;
+}
+.header_left>div:first-child>span{
+    font-weight: bold;
+}
+.header_left>div:last-child{
+    float: right;
+    padding: 10px 0px 10px 10px;
+}
+.header_left>div:last-child>a{
+    color: #8492A6;
+    font-size: 14px;
+    
+}
+.header_left>div:last-child>a>img{
+    width: 18px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.header_left>div:last-child:hover>#top_nav{
+    display: block;
+}
+#top_nav{
+    position: absolute;
+    top: 45px;
+    margin-left: -10px;
+    z-index: 2;
+    background: #ffffff;
+    display: none;
+}
+#top_nav>ul>li{
+    padding: 3px 10px 20px 10px;
+}
+#top_nav>ul>li>a>span{
+    font-size: 15px;
+    color: #8492A6;
+}
+#top_nav>ul>li>a>img{
+    width: 40px;
+    float: left;
+    margin-top: -10px;
+}
+.header_right{
+    width: 400px;
+    height: 40px;
+    float: right;
+}
+.header_right>ul{
+    float: right;
+}
+.header_right>ul>li,.header_right>ul>li>a,.header_right>ul>li>a>img{
+    float: left;
+    padding: 5px;
+}
+.header_right>ul>li{
+    color: #8492A6;
+    font-size: 14px;
+}
+.header_right>ul>li>a>img{
+    width: 17px;
+    padding-right: 2px;
+}
+/*header style end*/
+#logo{
+    width: 1200px;
+    height: 120px;
+    border: 1px solid red;
+    margin: 10px auto;
+}
+#logo_left{
+    width: 300px;
+    height: 120px;
+    border: 1px solid pink;
+    float: left;
+}
+#logo_right{
+    width: 400px;
+    height: 120px;
+    border: 1px solid purple;
+    float: right;
+}
+
+/*logo style end*/
+#nav{
+    width: 1200px;
+    height: 45px;
+    border: 1px solid rosybrown;
+    margin: 0px auto;
+}
+#nav_left{
+    width: 300px;
+    height: 45px;
+    border: 1px solid royalblue;
+    float: left;
+}
+#nav_center{
+    width: 700px;
+    height: 45px;
+    border: 1px solid red;
+    float: left;
+}
+#nav_right{
+    width: 150px;
+    height: 45px;
+    border: 1px solid aquamarine;
+    float: right;
+}
+/*nav style end*/
+#banner{
+    width: 100%;
+    height: 516px;
+    background: #f4f4f4;
+    position: relative;
+}
+#p_content{
+    width: 1200px;
+    height: 516px;
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    /*css 计算*/
+    left: calc(50% - 600px);
+}
+.banner>img{
+    width: 100%;
+}
+.banner_nav{
+    width: 240px;
+    height: 516px;
+    border: red 1px solid;
+    float: left;
+}
+.banner_right{
+    width: 950px;
+    height: 516px;
+    border: solid 1px red;
+    float: right;
+}
+.banner_logo{
+    width: 950px;
+    height: 398px;
+    border: #000000 1px solid;
+}
+.banner_bottom{
+    width: 950px;
+    height:114px;
+    border: blue 1px solid;
+}
+.banner_bottom>div{
+    width: 200px;
+    height: 114px;
+    float: left;
+    border: 1px solid darkgreen;
+    margin: 0px 15px;
+}
+/*banner style end*/
+#sidebar{
+    width: 80px;
+    height: 360px;
+    border: 1px solid #cccccc;
+    position: fixed;
+    right: 0px;
+    top:40%;
+    background: #ffff;
+    /*设置圆角*/
+    border-radius: 10px 0px 0px 10px;
+}
+/*sidebar style end*/
+#content{
+    width: 100%;
+    height: 620px;
+    background: #f4f4f4;
+    padding: 40px 0px 40px;
+}
+.content{
+    width: 1200px;
+    height: 620px;
+    background: #ffff;
+    margin: 0px auto;
+}
+.content_top{
+    width: 1200px;
+    height: 80px;
+    border: 1px solid #cccccc;
+}
+.content_top>div:first-child{
+    width: 200px;
+    height: 80px;
+    border: 1px solid blue;
+    float: left;
+}
+.content_top>div:nth-child(2){
+    width: 600px;
+    height: 80px;
+    border: 1px solid greenyellow;
+    float: left;
+}
+.content_top>div:last-child{
+    width: 380px;
+    height: 80px;
+    border: 1px solid purple;
+    float: right;
+}
+.content_bottom{
+    width: 1200px;
+    height: 530px;
+    border: 1px solid red;
+}
+.content_bottom_left{
+    width: 310px;
+    height: 530px;
+    border: 1px solid blue;
+    float: left;
+}
+.content_bottom_right{
+    width: 880px;
+    height: 530px;
+    border: 1px solid aqua;
+    float: right;
+}
+.content_bottom_right>div{
+    width: 880px;
+    height: 260px;
+    border: 1px solid sandybrown;
+}
+.content_bottom_right>div:last-child{
+    margin-top: 10px;
+}
+.content_bottom_right>div>div{
+  width: 210px;
+  height: 260px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin: 3px;  
+}
+/*content style end*/
+#footer{
+    width: 100%;
+    height: 305px;
+    background: #ffffff;
+}
+.footer{
+    width: 1200px;
+    height: 305px;
+    margin: 0px auto;
+}
+.footer_top{
+    height: 275px;
+}
+.footer_top_left{
+    width: 500px;
+    height: 275px;
+    float: left;
+    position: relative;
+}
+.footer_top_left>img{
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 65px);
+}
+.footer_top_left>p{
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-right: 20px;
+    font-size: 14px;
+    text-indent: 2em;
+    color: #8492a6;
+}
+.footer_top_center{
+    width: 450px;
+    height: 275px;
+    float: left;
+}
+.footer_top_center>div{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.footer_top_center>div>h6{
+    font-size: 18px;
+    border-bottom: 3px double blue;
+    padding-bottom: 5px;
+}
+.footer_top_center>div>ul>li{
+    padding: 3px 5px;
+}
+.footer_top_center>div>ul>li>a{
+    color: #8492A6;
+}
+/*鼠标放上去发生变化*/
+.footer_top_center>div>ul>li:hover>a{
+    color: #306eff;
+    text-decoration: underline;
+}
+.footer_top_right{
+    width: 180px;
+    height: 275px;
+    float: right;
+}
+.footer_top_right>img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 20px 5px 10px;
+}
+.footer_top_right>div{
+    color: #8492A6;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer_bottom{
+    height: 28px;
+    text-align: center;
+    line-height: 38px;
+    color: #8492A6;
+    font-weight: bold;
+}
